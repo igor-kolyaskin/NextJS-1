@@ -30,7 +30,7 @@ export default function MainLayout({ children, title }) {
           }
 
           a {
-            color: white;
+            color: tomato;
             text-decoration: none;
           }
 
