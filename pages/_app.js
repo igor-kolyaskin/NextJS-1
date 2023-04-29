@@ -1,12 +1,15 @@
+import "../styles/globals.css";
+// import "../styles/main.css"
+
 export default function MyApp({ Component, pageProps }) {
   return (
     <>
       <Component {...pageProps} />
-      <style jsx global>{`
+      {/* <style jsx global>{`
         body {
           font-family: Roboto;
         }
-      `}</style>
+      `}</style> */}
     </>
   );
 }
