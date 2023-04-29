@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "mock": "json-server -w db.json -p 4200 -d 450"
   },
   "dependencies": {
     "autoprefixer": "10.4.14",
@@ -18,5 +19,8 @@
     "react-dom": "18.2.0",
     "sass": "^1.62.1",
     "tailwindcss": "3.3.2"
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.1"
   }
 }
