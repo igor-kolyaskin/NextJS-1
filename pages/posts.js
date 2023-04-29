@@ -1,13 +1,11 @@
-import Head from "next/head";
+import MainLayout from "@/components/MainLayout";
 
 export default function Posts() {
   return (
-    <>
-      <Head>
+    <MainLayout title="Posts">
         <title>Next.JS-1 Posts</title>
         <meta charSet="UTF-8"></meta>
-      </Head>
       <h1>Posts</h1>
-    </>
+    </MainLayout>
   );
 }
