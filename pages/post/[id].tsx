@@ -1,6 +1,7 @@
-import MainLayout from "@/components/MainLayout";
+import MainLayout from "../../components/MainLayout";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import React from "react";
 import { useState, useEffect } from "react";
 
 export default function Post({ post: serverPost }) {
@@ -20,7 +21,8 @@ export default function Post({ post: serverPost }) {
 
   if (!post) {
     return (
-      <MainLayout>
+      // eslint-disable-next-line react/no-children-prop
+      <MainLayout title={undefined}>
         <p>Loading...</p>
       </MainLayout>
     );

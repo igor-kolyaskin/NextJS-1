@@ -1,5 +1,6 @@
-import MainLayout from "@/components/MainLayout";
+import MainLayout from "../../components/MainLayout";
 import Router from "next/router";
+import React from "react";
 
 export default function About({ title }) {
   const linkClickHandler = () => {

@@ -1,5 +1,7 @@
-import MainLayout from "@/components/MainLayout";
+/* eslint-disable react/no-children-prop */
+import MainLayout from "../components/MainLayout";
 import Link from "next/link";
+import React from "react";
 import { useState, useEffect } from "react";
 
 export default function Posts({ posts: serverPosts }) {
@@ -17,7 +19,7 @@ export default function Posts({ posts: serverPosts }) {
 
   if (!posts) {
     return (
-      <MainLayout>
+      <MainLayout title={undefined}>
         <p>Posts loading...</p>
       </MainLayout>
     );
