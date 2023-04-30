@@ -43,11 +43,22 @@ export default function Posts({ posts: serverPosts }) {
   );
 }
 
-Posts.getInitialProps = async ({ req }) => {
-  if (!req) {
-    return { posts: null };
-  }
+// can be called both on server and on client side
+// Posts.getInitialProps = async ({ req }) => {
+//   if (!req) {
+//     return { posts: null };
+//   }
+//   const response = await fetch("http://localhost:4200/posts");
+//   const posts = await response.json();
+//   return { posts };
+// };
+
+// can be called only on server side
+export async function getServerSideProps({ query, req }) {
+  // if (!req) {
+  //   return { posts: null };
+  // }
   const response = await fetch("http://localhost:4200/posts");
   const posts = await response.json();
-  return { posts };
-};
+  return { props: { posts } };
+}
