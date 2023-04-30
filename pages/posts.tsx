@@ -15,7 +15,7 @@ export default function Posts({ posts: serverPosts }: PostPageProps) {
 
   useEffect(() => {
     const load = async () => {
-      const response = await fetch("http://localhost:4200/posts");
+      const response = await fetch(`${process.env.API_URL}/posts`);
       const data = await response.json();
       setPosts(data);
     };
@@ -56,7 +56,7 @@ export default function Posts({ posts: serverPosts }: PostPageProps) {
 //   if (!req) {
 //     return { posts: null };
 //   }
-//   const response = await fetch("http://localhost:4200/posts");
+//   const response = await fetch("${process.env.API_URL}/posts");
 //   const posts = await response.json();
 //   return { posts };
 // };
@@ -66,7 +66,7 @@ export async function getServerSideProps({ query, req }: NextPageContext) {
   // if (!req) {
   //   return { posts: null };
   // }
-  const response = await fetch("http://localhost:4200/posts");
+  const response = await fetch(`${process.env.API_URL}/posts`);
   const posts: MyPost[] = await response.json();
   return { props: { posts } };
 }
