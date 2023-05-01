@@ -1,9 +1,9 @@
 {
   "posts": [
-    { "id": 1, "title": "Post 1", "body": "Text for post 1" },
-    { "id": 2, "title": "Post 2", "body": "Text for post 2" },
-    { "id": 3, "title": "Post 3", "body": "Text for post 3" },
-    { "id": 4, "title": "Post 4", "body": "Text for post 4" }
+    { "id": 1, "title": "Car rental", "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus imperdiet nulla malesuada pellentesque elit eget gravida cum sociis. Hac habitasse platea dictumst vestibulum rhoncus est. A scelerisque purus semper eget duis. Sed felis eget velit aliquet sagittis id. Phasellus egestas tellus rutrum tellus pellentesque eu tincidunt tortor aliquam. Neque volutpat ac tincidunt vitae semper." },
+    { "id": 2, "title": "Shopping", "body": "Nunc sed velit dignissim sodales ut. Blandit libero volutpat sed cras ornare arcu dui vivamus arcu. Ultrices eros in cursus turpis massa tincidunt dui. Malesuada proin libero nunc consequat interdum varius sit amet. Mauris nunc congue nisi vitae suscipit tellus mauris a diam. Risus quis varius quam quisque id diam vel quam. Nisl pretium fusce id velit ut. Ut placerat orci nulla pellentesque dignissim enim sit amet. Faucibus pulvinar elementum integer enim neque volutpat ac tincidunt. Ullamcorper eget nulla facilisi etiam dignissim diam quis enim. " },
+    { "id": 3, "title": "SPA services", "body": "Consectetur adipiscing elit ut aliquam. Dui id ornare arcu odio ut sem. Ut diam quam nulla porttitor massa id. Laoreet sit amet cursus sit amet. Arcu dui vivamus arcu felis bibendum ut tristique. Ut porttitor leo a diam sollicitudin. Sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus. Sollicitudin aliquam ultrices sagittis orci a scelerisque. Ante metus dictum at tempor. " },
+    { "id": 4, "title": "Delivery services", "body": "Cras ornare arcu dui vivamus. Mollis aliquam ut porttitor leo a diam sollicitudin tempor id. Elementum eu facilisis sed odio morbi quis commodo. Blandit volutpat maecenas volutpat blandit. Non curabitur gravida arcu ac. Diam in arcu cursus euismod. Nisl nisi scelerisque eu ultrices vitae auctor eu augue. Morbi tristique senectus et netus et. Viverra justo nec ultrices dui. Vel quam elementum pulvinar etiam non quam lacus suspendisse faucibus. Venenatis a condimentum vitae sapien pellentesque habitant morbi tristique senectus. " }
   ],
   "about": {
     "title": "It's About Page"
